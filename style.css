@@ -7,6 +7,10 @@
 nav {
   display: flex;
   justify-content: space-around;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%; /* Full width */
 }
 
 .mainMenu {
@@ -33,6 +37,7 @@ nav {
   box-sizing: inherit;
   justify-content: center;
   text-shadow: none;
+  background-color: white;
 }
 
 .subMenuItems:hover {
@@ -59,7 +64,7 @@ nav {
 }
 
 .block1 {
-  margin-top: 30px;
+  margin-top: 100px;
   justify-content: center;
 }
 .block1 img {
@@ -368,6 +373,7 @@ p {
   text-align: inherit;
   margin-top: 20px;
   color: #747474;
+  width: 100%;
 }
 
 .custom-select {
